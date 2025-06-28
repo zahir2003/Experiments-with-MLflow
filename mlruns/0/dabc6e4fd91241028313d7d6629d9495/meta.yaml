@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/dabc6e4fd91241028313d7d6629d9495/artifacts
+end_time: 1750926173275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dabc6e4fd91241028313d7d6629d9495
+run_name: gifted-kite-216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750926172858
+status: 3
+tags: []
+user_id: ASUS

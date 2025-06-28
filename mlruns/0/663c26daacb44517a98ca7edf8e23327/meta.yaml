@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/663c26daacb44517a98ca7edf8e23327/artifacts
+end_time: 1750924934223
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 663c26daacb44517a98ca7edf8e23327
+run_name: peaceful-bear-426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750924933269
+status: 3
+tags: []
+user_id: ASUS

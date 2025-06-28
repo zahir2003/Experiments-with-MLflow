@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/287355466280665144/1e6c9dd24b254c549ec4f3afc58dea0a/artifacts
+deleted_time: 1751091917568
+end_time: 1751091829394
+entry_point_name: ''
+experiment_id: '287355466280665144'
+lifecycle_stage: deleted
+run_id: 1e6c9dd24b254c549ec4f3afc58dea0a
+run_name: enchanting-dog-240
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751091829064
+status: 4
+tags: []
+user_id: ASUS

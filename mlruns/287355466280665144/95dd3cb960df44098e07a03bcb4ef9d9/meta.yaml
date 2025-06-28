@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/287355466280665144/95dd3cb960df44098e07a03bcb4ef9d9/artifacts
+end_time: 1751098382628
+entry_point_name: ''
+experiment_id: '287355466280665144'
+lifecycle_stage: active
+run_id: 95dd3cb960df44098e07a03bcb4ef9d9
+run_name: bald-perch-961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751098376815
+status: 3
+tags: []
+user_id: ASUS

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/287355466280665144/124ab969e4144a6c9cffb6ab1ed18df5/artifacts
+end_time: 1751092102353
+entry_point_name: ''
+experiment_id: '287355466280665144'
+lifecycle_stage: active
+run_id: 124ab969e4144a6c9cffb6ab1ed18df5
+run_name: entertaining-eel-56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751092096971
+status: 3
+tags: []
+user_id: ASUS

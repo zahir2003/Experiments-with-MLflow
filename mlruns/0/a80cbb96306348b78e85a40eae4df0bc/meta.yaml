@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a80cbb96306348b78e85a40eae4df0bc/artifacts
+end_time: 1750839571815
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a80cbb96306348b78e85a40eae4df0bc
+run_name: gifted-sloth-2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750839571748
+status: 3
+tags: []
+user_id: ASUS

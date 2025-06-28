@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/287355466280665144/7c3fb9638b154b5abbaad1dd12cf10a0/artifacts
+end_time: 1751090789510
+entry_point_name: ''
+experiment_id: '287355466280665144'
+lifecycle_stage: active
+run_id: 7c3fb9638b154b5abbaad1dd12cf10a0
+run_name: marvelous-mink-185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751090788946
+status: 3
+tags: []
+user_id: ASUS
