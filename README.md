@@ -1,91 +1,147 @@
 ---
 
-# 📊 MLflow Autologging: Automate Your ML Tracking Like a Pro
+# 📘 MLflow Tracking Guide: Streamline Your Machine Learning Workflows
 
-This documentation outlines the powerful capabilities of `mlflow.autolog()` — an essential tool for automating machine learning experiment tracking. Whether you're a data scientist, MLOps engineer, or aspiring ML developer, this guide will help you understand what MLflow can do out-of-the-box and where manual logging is still needed.
+MLflow is an open-source platform designed to manage the complete machine learning lifecycle.  
+From experiment tracking to model deployment, MLflow enables **reproducibility, scalability, and collaboration** — making it an essential tool for modern ML engineers and data scientists.
 
 ---
 
-## 🚀 What is `mlflow.autolog()`?
+## 🚀 What You Can Track with MLflow
 
-`mlflow.autolog()` is a **one-line command** that enables automatic logging of parameters, metrics, models, and other key training details for supported ML frameworks.
+Below is a comprehensive list of everything MLflow empowers you to track or log throughout your ML pipeline.
+
+---
+
+### 📈 1. Metrics
+
+- ✅ **Accuracy** – Evaluate performance across multiple runs
+- ✅ **Loss** – Monitor training and validation loss curves
+- ✅ **Precision, Recall, F1-Score** – For classification model performance
+- ✅ **AUC (Area Under Curve)** – ROC-AUC for classifier evaluation
+- ✅ **Custom Metrics** – e.g., RMSE, MAE, or any custom evaluation function
 
 ```python
-import mlflow
-mlflow.autolog()
+mlflow.log_metric("accuracy", accuracy_score)
+mlflow.log_metric("loss", loss_value)
 ````
 
-✅ Simple to use, and ✅ incredibly powerful for model reproducibility and experiment tracking.
-
 ---
 
-## ✅ What Gets Logged Automatically?
+### ⚙️ 2. Parameters
 
-| Category                  | Description                                                             |
-| ------------------------- | ----------------------------------------------------------------------- |
-| 🔧 **Parameters**         | Hyperparameters like `max_depth`, `learning_rate`, `n_estimators`, etc. |
-| 📈 **Metrics**            | Common evaluation metrics (accuracy, precision, recall, loss, etc.)     |
-| 🤖 **Model**              | The trained model object                                                |
-| 🧾 **Artifacts**          | Framework-supported plots, model summaries, learning curves             |
-| ⚙️ **Framework Info**     | Early stopping, optimizer configs, epochs (if supported)                |
-| 🧪 **Training Data Info** | Dataset size, sometimes feature schema (but **not full data**)          |
-| 🧬 **Environment Info**   | Library versions, Python version, OS info                               |
-| 🧾 **Model Signature**    | Automatically inferred input/output schema                              |
-
----
-
-## ❌ What You Need to Log Manually
-
-| Not Logged Automatically         | Why?                                                                            |
-| -------------------------------- | ------------------------------------------------------------------------------- |
-| 🧠 **Custom Metrics**            | F1-score, ROC-AUC, or any non-default metric must be logged manually            |
-| 📊 **Custom Artifacts**          | Visualizations, confusion matrix, or any custom file or report                  |
-| 🧹 **Preprocessed Data**         | Transformed training/validation data is not stored                              |
-| 📦 **Intermediate Models**       | Models saved during training (e.g., checkpoints per epoch) aren't tracked       |
-| 🏗️ **Complex Model Structures** | Highly customized models might be partially logged                              |
-| 🔁 **Custom Training Loops**     | Loops outside supported framework APIs won't be captured                        |
-| 🧱 **Unsupported Frameworks**    | Frameworks not officially supported by MLflow (e.g., custom PyTorch loops)      |
-| 🎛️ **Custom Hyperparams**       | Tuning done outside standard frameworks (e.g., custom grid searches) is skipped |
-
----
-
-## 💡 Summary
-
-| ✅ Perfect For                               | ❗ Requires Manual Intervention When                        |
-| ------------------------------------------- | ---------------------------------------------------------- |
-| Rapid prototyping                           | You use custom evaluation metrics                          |
-| Experiment tracking in supported frameworks | You want to track every artifact (e.g., plots, data, etc.) |
-| Reproducibility and model versioning        | You're using a non-standard or custom training loop        |
-| Quick integration into ML pipelines         | You need to monitor multiple model checkpoints             |
-
----
-
-## 🧪 Sample Usage
+* 🧠 **Model Hyperparameters** – `learning_rate`, `max_depth`, `n_estimators`, etc.
+* 🧪 **Data Processing Parameters** – `test_size`, `scaling`, `encoding_method`, etc.
+* 🏗️ **Feature Engineering** – e.g., `n_features`, `text_vectorizer`, etc.
 
 ```python
-import mlflow
-import xgboost as xgb
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-
-# Enable autologging
-mlflow.autolog()
-
-# Load data
-X, y = load_iris(return_X_y=True)
-X_train, X_test, y_train, y_test = train_test_split(X, y)
-
-# Train model
-model = xgb.XGBClassifier(n_estimators=100, max_depth=3)
-model.fit(X_train, y_train)
+mlflow.log_param("max_depth", 5)
+mlflow.log_param("scaler", "StandardScaler")
 ```
 
 ---
 
-## 🧠 Final Thoughts
+### 📦 3. Artifacts
 
-`mlflow.autolog()` helps you focus more on modeling and less on bookkeeping.
-But remember — **know its limits**. Combine autologging with **manual tracking** to get full control and visibility over your ML workflows.
+* 🎯 **Trained Models** – Save and version models
+* 📑 **Model Summaries** – Architecture/configs of trained models
+* 📊 **Confusion Matrices**, **ROC Curves**, **Loss Plots**
+* 📂 **Input Data Snapshots**
+* 📓 **Notebooks / Scripts** used in the experiment
+* ⚙️ **requirements.txt** / `conda.yaml` for reproducibility
+
+```python
+mlflow.log_artifact("confusion_matrix.png")
+mlflow.log_artifact("models/random_forest.pkl")
+```
+
+---
+
+### 🧠 4. Models
+
+* ✅ **Pickled Models** – Standard `.pkl` serialization
+* ✅ **ONNX Models** – Cross-platform format
+* ✅ **Custom Models** – With custom logic using MLflow's model API
+
+```python
+mlflow.sklearn.log_model(model, "model")
+```
+
+---
+
+### 🏷️ 5. Tags
+
+* 👤 **Author, Description, Experiment Type**
+* ☁️ **Environment Tags** – `gpu`, `cloud_provider`, etc.
+
+```python
+mlflow.set_tag("author", "Sk Mahiduzzaman")
+mlflow.set_tag("model_type", "RandomForest")
+```
+
+---
+
+### 💾 6. Source Code
+
+* 🧾 **Tracked Scripts** and Jupyter Notebooks
+* 🔗 **Git Commit Hash** for exact version control
+* 📦 **Dependencies** – Python package versions tracked automatically
+
+```python
+mlflow.set_tag("git_commit", "abc123def456")
+```
+
+---
+
+### 📥 7. Logging Inputs and Outputs
+
+* 📊 **Training Data Information**
+* 📊 **Validation / Test Set**
+* 🔮 **Inference Outputs** – Store predictions or results for analysis
+
+---
+
+### ✨ 8. Custom Logging
+
+* 🧱 **Any File or Object** – Custom images, audio, logs
+* 🧠 **Functions, Pipelines** – Track custom logic behind the training process
+
+```python
+mlflow.log_artifact("custom_report.pdf")
+```
+
+---
+
+### 🔁 9. Model Registry
+
+* 📌 **Model Versioning** – Track models across development
+* 🚀 **Deployment Management** – Move models across stages:
+
+  * `None` → `Staging` → `Production` → `Archived`
+
+> Centralized management of production-ready models for real MLOps workflows.
+
+---
+
+### 🧾 10. Run & Experiment Details
+
+* 🆔 **Run ID** – Unique identifier per training session
+* 📁 **Experiment Name** – Grouping of related runs
+* ⏱️ **Timestamps** – Start and end time of each run
+
+```python
+mlflow.start_run(run_name="baseline_model")
+print("Run ID:", mlflow.active_run().info.run_id)
+```
+
+---
+
+## 🧠 Why This Matters
+
+✅ **Reproducibility** – Every model and metric is logged and versioned
+✅ **Comparability** – Compare different models, hyperparameters, and data splits
+✅ **Scalability** – Integrate MLflow with DVC, Docker, or cloud services
+✅ **Production-Ready** – Easily transition models from experiment to deployment
 
 ---
 
@@ -97,6 +153,5 @@ But remember — **know its limits**. Combine autologging with **manual tracking
 
 ---
 
-> ⚡ *Track smarter. Automate faster. Own your experiments with confidence using MLflow!*
-
+> ⚡ *Track smarter. Reproduce faster. Deploy with confidence — MLflow puts your ML pipeline on steroids!*
 
