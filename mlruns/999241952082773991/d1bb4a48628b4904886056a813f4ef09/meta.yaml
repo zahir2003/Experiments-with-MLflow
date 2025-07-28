@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/d1bb4a48628b4904886056a813f4ef09/artifacts
+deleted_time: 1751102039077
+end_time: 1751101815111
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: deleted
+run_id: d1bb4a48628b4904886056a813f4ef09
+run_name: colorful-chimp-56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751101809382
+status: 4
+tags: []
+user_id: ASUS

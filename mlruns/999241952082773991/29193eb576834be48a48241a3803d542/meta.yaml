@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/29193eb576834be48a48241a3803d542/artifacts
+end_time: 1751177928677
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 29193eb576834be48a48241a3803d542
+run_name: clean-ox-729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177928630
+status: 3
+tags: []
+user_id: ASUS

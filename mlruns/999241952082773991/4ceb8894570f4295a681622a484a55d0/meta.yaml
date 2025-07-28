@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/4ceb8894570f4295a681622a484a55d0/artifacts
+end_time: 1751179090850
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 4ceb8894570f4295a681622a484a55d0
+run_name: abrasive-tern-60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751179090796
+status: 3
+tags: []
+user_id: ASUS

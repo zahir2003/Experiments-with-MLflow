@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/b72ebbf2eb62414bb31a633a7a6031a1/artifacts
+deleted_time: 1751102039079
+end_time: 1751101878809
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: deleted
+run_id: b72ebbf2eb62414bb31a633a7a6031a1
+run_name: stately-sow-530
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751101873017
+status: 4
+tags: []
+user_id: ASUS

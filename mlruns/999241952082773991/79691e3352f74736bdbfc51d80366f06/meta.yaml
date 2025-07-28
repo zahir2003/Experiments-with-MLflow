@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/79691e3352f74736bdbfc51d80366f06/artifacts
+end_time: 1751177928944
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 79691e3352f74736bdbfc51d80366f06
+run_name: welcoming-rat-368
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177928894
+status: 3
+tags: []
+user_id: ASUS

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/32bf562e430241218e7b9a89e580e44d/artifacts
+end_time: 1751177928472
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 32bf562e430241218e7b9a89e580e44d
+run_name: flawless-whale-705
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177928418
+status: 3
+tags: []
+user_id: ASUS

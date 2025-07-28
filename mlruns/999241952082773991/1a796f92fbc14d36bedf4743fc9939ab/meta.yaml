@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/1a796f92fbc14d36bedf4743fc9939ab/artifacts
+end_time: 1751179090671
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 1a796f92fbc14d36bedf4743fc9939ab
+run_name: calm-sloth-285
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751179090619
+status: 3
+tags: []
+user_id: ASUS

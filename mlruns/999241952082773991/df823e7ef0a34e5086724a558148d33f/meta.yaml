@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/df823e7ef0a34e5086724a558148d33f/artifacts
+end_time: 1751177929060
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: df823e7ef0a34e5086724a558148d33f
+run_name: righteous-steed-704
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177929004
+status: 3
+tags: []
+user_id: ASUS

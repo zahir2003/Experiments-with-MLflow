@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/2d8d3c4de02f4f589513f6fa832fce52/artifacts
+end_time: 1751179090439
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 2d8d3c4de02f4f589513f6fa832fce52
+run_name: gifted-stag-46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751179090386
+status: 3
+tags: []
+user_id: ASUS

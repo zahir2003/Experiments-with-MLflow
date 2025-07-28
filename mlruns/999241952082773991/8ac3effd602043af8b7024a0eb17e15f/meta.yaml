@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/8ac3effd602043af8b7024a0eb17e15f/artifacts
+deleted_time: 1751178031739
+end_time: 1751177655771
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: deleted
+run_id: 8ac3effd602043af8b7024a0eb17e15f
+run_name: clumsy-ant-527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177649847
+status: 4
+tags: []
+user_id: ASUS

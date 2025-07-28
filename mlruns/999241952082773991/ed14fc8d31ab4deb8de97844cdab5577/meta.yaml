@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/ed14fc8d31ab4deb8de97844cdab5577/artifacts
+end_time: 1751177928890
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: ed14fc8d31ab4deb8de97844cdab5577
+run_name: persistent-koi-155
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177928839
+status: 3
+tags: []
+user_id: ASUS

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/f1259abbab0c493a951e1a392c63976c/artifacts
+end_time: 1751179090328
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: f1259abbab0c493a951e1a392c63976c
+run_name: unique-snake-260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751179090279
+status: 3
+tags: []
+user_id: ASUS

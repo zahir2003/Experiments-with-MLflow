@@ -1,0 +1,18 @@
+aliases: []
+creation_timestamp: 1751179010669
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1751179010669
+metrics: null
+model_id: m-f1cdca3baa5441259a7b0dd628e72361
+name: Zahir Model 1
+params: null
+run_id: ''
+run_link: ''
+source: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/models/m-f1cdca3baa5441259a7b0dd628e72361/artifacts
+status: READY
+status_message: null
+storage_location: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/models/m-f1cdca3baa5441259a7b0dd628e72361/artifacts
+user_id: null
+version: 1

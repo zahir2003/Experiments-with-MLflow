@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/5af6421a3b234b89a593eccd753563d3/artifacts
+end_time: 1751177928835
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: 5af6421a3b234b89a593eccd753563d3
+run_name: grandiose-bug-179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177928783
+status: 3
+tags: []
+user_id: ASUS

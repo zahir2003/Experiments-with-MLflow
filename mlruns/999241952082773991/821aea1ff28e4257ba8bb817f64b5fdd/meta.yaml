@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/821aea1ff28e4257ba8bb817f64b5fdd/artifacts
+deleted_time: 1751178031740
+end_time: 1751177849239
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: deleted
+run_id: 821aea1ff28e4257ba8bb817f64b5fdd
+run_name: skittish-crow-44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751177843681
+status: 4
+tags: []
+user_id: ASUS

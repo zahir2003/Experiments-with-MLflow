@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/Experiments-with-MLflow/mlruns/999241952082773991/eac268a218284065bfc58d0ef1f411b0/artifacts
+end_time: 1751179090729
+entry_point_name: ''
+experiment_id: '999241952082773991'
+lifecycle_stage: active
+run_id: eac268a218284065bfc58d0ef1f411b0
+run_name: indecisive-swan-470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751179090677
+status: 3
+tags: []
+user_id: ASUS
